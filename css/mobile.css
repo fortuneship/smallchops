@@ -20,6 +20,13 @@
     grid-template-columns: repeat(2, 1fr);
 }
 
+/* Login Section  */
+.contact-form {
+    max-width: 300px;
+    margin-bottom: 5rem;
+  }
+  
+
 @media(max-width:600px) {
     /* Stack Grid Items */
     #menu .menu-container,
@@ -32,5 +39,11 @@
     #main-footer .footer-container > * {
         padding-bottom: 1rem;
     }
+
+    /* Login Section */
+    /* .contact-form {
+        max-width: 250px;
+      } */
+      
 
 }
